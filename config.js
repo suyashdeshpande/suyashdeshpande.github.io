@@ -24,6 +24,6 @@ module.exports = {
     },
   ],
   email: 'suyashdeshpande1998@gmail.com',
-  phone: '(+91) 898-900-5073',
+  phone: '',
   address: 'Bhopal, India',
 };

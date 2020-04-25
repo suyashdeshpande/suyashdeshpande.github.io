@@ -19,12 +19,13 @@ const IndexPage = () => (
             <span className="text-primary">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
-            {config.address} · {config.phone} ·
+            {config.address} · 
+            {/* {config.phone} · */}
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
             Learn new technologies and grow every day.
-            <br/>
+            <br />
             <strong>Hire Me,</strong> we will grow together!!
           </p>
           <div className="social-icons">
@@ -97,40 +98,6 @@ const IndexPage = () => (
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">May 2018 - Feb 2019</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="education"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Education</h2>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">NIT Bhopal</h3>
-              <div className="subheading mb-3">Bachelor of Technology</div>
-              <div>Computer Science & Engineering</div>
-              <p>GPA: 7.54/10.0</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">2016 - 20</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Jawaharlal Nehru School</h3>
-              <div className="subheading mb-3">CBSE 12th</div>
-              <p>PERCENTAGE: 93.8%</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">2015-16</span>
             </div>
           </div>
         </div>
@@ -310,7 +277,40 @@ const IndexPage = () => (
         </div>
       </section>
 
-      </div>
+      <hr className="m-0" />
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="education"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Education</h2>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">NIT Bhopal</h3>
+              <div className="subheading mb-3">Bachelor of Technology</div>
+              <div>Computer Science & Engineering</div>
+              <p>GPA: 7.54/10.0</p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">2016 - 20</span>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
+            <div className="resume-content">
+              <h3 className="mb-0">Jawaharlal Nehru School</h3>
+              <div className="subheading mb-3">CBSE 12th</div>
+              <p>PERCENTAGE: 93.8%</p>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">2015-16</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </Layout>
 );
 
