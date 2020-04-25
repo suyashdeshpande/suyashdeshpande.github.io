@@ -19,8 +19,7 @@ const IndexPage = () => (
             <span className="text-primary">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
-            {config.address} · 
-            {/* {config.phone} · */}
+            {config.address} ·{/* {config.phone} · */}
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
@@ -291,21 +290,9 @@ const IndexPage = () => (
               <h3 className="mb-0">NIT Bhopal</h3>
               <div className="subheading mb-3">Bachelor of Technology</div>
               <div>Computer Science & Engineering</div>
-              <p>GPA: 7.54/10.0</p>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">2016 - 20</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Jawaharlal Nehru School</h3>
-              <div className="subheading mb-3">CBSE 12th</div>
-              <p>PERCENTAGE: 93.8%</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">2015-16</span>
             </div>
           </div>
         </div>
