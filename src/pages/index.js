@@ -119,7 +119,7 @@ const IndexPage = () => (
               <p>GPA: 7.54/10.0</p>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">2016 - 20</span>
             </div>
           </div>
 
