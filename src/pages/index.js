@@ -57,8 +57,7 @@ const IndexPage = () => (
                 <ul>
                   <li>Worked on universal ticket management system.</li>
                   <li>
-                    Integrated the ML model shipped by ML team into the current
-                    product.
+                    Integrated the ML model shipped by ML team into the product.
                   </li>
                   <li>Designed & developed UI using Angular.</li>
                   <li>
