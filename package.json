@@ -1,10 +1,10 @@
 {
-  "name": "gatsby-starter-resume",
+  "name": "portfolio",
   "version": "0.0.1",
   "description": "Suyash Deshpande Resume",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/suyashdeshpande/suyashdeshpande.github.io"
   },
   "author": {
     "name": "Suyash Deshpande",
