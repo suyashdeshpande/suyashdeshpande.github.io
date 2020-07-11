@@ -19,11 +19,11 @@ jobs:
       uses: actions/checkout@v2
       with:
         persist-credentials: false
+        GITHUB_TOKEN: ${{ secrets.github_token }}
     
     - name: Install and Build
       run: |
         npm i
-        npm run build
     
     - name: Deploy
       run: npm run deploy-master
